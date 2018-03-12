@@ -1,7 +1,7 @@
 var theBeatlesPlay=function(musAr,instAr){
   var result = [];
   for(let m=0;m<musAr.length;m++){
-    var musString=musAr[m]+" plays the "+instAr[m];
+    var musString=musAr[m]+" plays "+instAr[m];
     result.push(musString);
   }
   return result;
