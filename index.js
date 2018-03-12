@@ -13,6 +13,7 @@ var johnLennonFacts=function(ar){
     ar[count]=ar[count]+"!!!";
     count++;
   }
+  return ar;
 };
 
 var iLoveTheBeatles=function(number){
@@ -22,4 +23,5 @@ var iLoveTheBeatles=function(number){
     result.push("I love the Beatles!");
     count++;
   } while (count<15);
+  return result;
 };
